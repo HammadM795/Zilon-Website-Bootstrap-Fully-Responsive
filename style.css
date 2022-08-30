@@ -10,10 +10,10 @@ span {
   padding: 0%;
   margin: 0%;
 }
-.navbar-data {
+/* .navbar-data {
   margin: auto;
   width: 1349px;
-}
+} */
 .navbar {
   padding: 10px 8%;
 }
@@ -37,6 +37,7 @@ span {
   width: 70%;
 }
 #main-img {
+  padding: 0%;
 }
 .card {
   background-color: white;
@@ -56,6 +57,7 @@ span {
 }
 .card-header-text p {
   font-size: 20px;
+  padding: 0px 20px;
 }
 .zilon-overview {
   background-color: white;
@@ -79,6 +81,9 @@ span {
   max-width: 1349px;
   margin: auto;
 }
+.sol-para {
+  line-height: 30px;
+}
 .fa-arrow-right {
   background-color: white;
   color: black;
@@ -88,11 +93,14 @@ span {
   margin-right: 1em;
 }
 .brand-icon {
-  padding: 20px 69px;
+  padding: 20px;
 }
 .brand-body {
   max-width: 1349px;
   margin: auto;
+}
+.brand-logo {
+  margin: 0px 8%;
 }
 .footer-h4 {
   color: #595959;
@@ -136,11 +144,14 @@ strong {
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 990px) {
-  .brand-icon {
-    padding: 20px 112px;
-  }
   .bg-img {
-    height: 228vh;
+    height: 271vh;
+  }
+  .sol-header {
+    margin-top: 2rem;
+  }
+  .footer-h4 {
+    margin-top: 2rem;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -153,47 +164,42 @@ strong {
   .bg-img {
     height: 273vh;
   }
+  .sol-header {
+    margin-top: 2rem;
+  }
+  .footer-h4 {
+    margin-top: 2rem;
+  }
 }
 @media only screen and (min-width: 375px) and (max-width: 575px) {
   .bg-img {
-    height: 306vh;
+    height: 486vh;
   }
   .card {
     padding: 1rem;
   }
   .card-header-text p {
-    font-size: 12px;
+    font-size: 14px;
   }
   .card-header-text {
     padding: 0%;
   }
-  .automate {
-    padding: 0%;
-    margin: 0%;
-  }
-  .customers {
-    padding: 0%;
-    margin: 0%;
-  }
-  .manage {
-    padding: 0%;
-    margin: 0%;
+  #main-img {
+    padding: 0px;
   }
   .card-body {
     padding: 0%;
   }
-  .solution-body {
-    display: block;
-  }
-  .footer-body {
-    display: block;
-    padding: 3% 5%;
-    margin: 0%;
+  .sol-header {
+    margin-top: 2rem;
   }
   .group {
     margin-top: 10px;
   }
   .main-img {
     width: 100%;
+  }
+  .footer-h4 {
+    margin-top: 2rem;
   }
 }
