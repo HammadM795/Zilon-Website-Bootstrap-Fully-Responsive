@@ -155,7 +155,7 @@ strong {
 
 @media only screen and (min-width: 768px) and (max-width: 990px) {
   .bg-img {
-    height: 271vh;
+    height: 300vh;
   }
   .sol-header {
     margin-top: 2rem;
@@ -169,10 +169,10 @@ strong {
     display: grid;
   }
   .card {
-    height: 111vh;
+    height: 231vh;
   }
   .bg-img {
-    height: 137vh;
+    height: 295vh;
   }
   .sol-header {
     margin-top: 2rem;
