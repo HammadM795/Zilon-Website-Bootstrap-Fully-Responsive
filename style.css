@@ -17,6 +17,10 @@ span {
 .navbar {
   padding: 10px 8%;
 }
+.nav-data {
+  margin: auto;
+  max-width: 1349px;
+}
 .bg-img {
   background-image: url(Images/Backgound-img.png);
   background-position: center;
