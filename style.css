@@ -24,7 +24,7 @@ span {
 .bg-img {
   background-image: url(Images/Backgound-img.png);
   background-position: center;
-  height: 205vh;
+  height: 223vh;
   background-repeat: no-repeat;
   background-size: cover;
   z-index: -10;
