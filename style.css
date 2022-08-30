@@ -147,6 +147,12 @@ strong {
     max-height: 100vh;
   }
 }
+/* @media only screen and (max-width: 1330px) {
+  .bg-img {
+    max-height: 100vh;
+  }
+} */
+
 @media only screen and (min-width: 768px) and (max-width: 990px) {
   .bg-img {
     height: 271vh;
@@ -163,10 +169,10 @@ strong {
     display: grid;
   }
   .card {
-    height: 230vh;
+    height: 212vh;
   }
   .bg-img {
-    height: 285vh;
+    height: 269vh;
   }
   .sol-header {
     margin-top: 2rem;
@@ -180,6 +186,9 @@ strong {
   .navbar-light .navbar-nav .nav-link:hover {
     background-color: #ececec;
     border-radius: 2px;
+  }
+  .card-header-text {
+    padding: 1.5rem 0%;
   }
 }
 @media only screen and (min-width: 375px) and (max-width: 575px) {
