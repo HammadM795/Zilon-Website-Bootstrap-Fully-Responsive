@@ -142,20 +142,15 @@ strong {
   color: #333333;
   text-decoration: none;
 }
-@media only screen and (min-width: 1400px) {
+@media only screen and (min-width: 1367px) {
   .bg-img {
     max-height: 100vh;
   }
 }
-/* @media only screen and (max-width: 1330px) {
-  .bg-img {
-    max-height: 100vh;
-  }
-} */
 
 @media only screen and (min-width: 768px) and (max-width: 990px) {
   .bg-img {
-    height: 300vh;
+    height: 273vh;
   }
   .sol-header {
     margin-top: 2rem;
@@ -169,7 +164,7 @@ strong {
     display: grid;
   }
   .card {
-    height: 231vh;
+    height: 212vh;
   }
   .bg-img {
     height: 295vh;
@@ -193,7 +188,7 @@ strong {
 }
 @media only screen and (min-width: 375px) and (max-width: 575px) {
   .bg-img {
-    height: 486vh;
+    height: 340vh;
   }
   .card {
     padding: 1rem;
